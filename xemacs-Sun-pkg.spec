@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for Sparcworks.
 
-%description -l pl 
+%description -l pl
 Wsparcie do Sparcworks.
 
 %prep
@@ -30,13 +30,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/Sun/ChangeLog 
+gzip -9nf lisp/Sun/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/Sun/ChangeLog.gz 
+%doc lisp/Sun/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
