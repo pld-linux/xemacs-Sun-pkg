@@ -1,5 +1,5 @@
 Summary:	Support for Sparcworks
-Summary(pl):	Support for Sparcworks
+Summary(pl):	Wsparcie do Sparcworks
 Name:		xemacs-Sun-pkg
 %define 	srcname	Sun
 Version:	1.13
@@ -17,8 +17,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Support for Sparcworks.
 
 %description -l pl 
+Wsparcie do Sparcworks.
 
 %prep
 %setup -q -c
