@@ -2,7 +2,7 @@ Summary:	Support for Sparcworks
 Summary(pl):	Support for Sparcworks
 Name:		xemacs-Sun-pkg
 %define 	srcname	Sun
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
