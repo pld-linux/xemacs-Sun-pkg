@@ -2,12 +2,12 @@ Summary:	Support for Sparcworks
 Summary(pl):	Wsparcie do Sparcworks
 Name:		xemacs-Sun-pkg
 %define 	srcname	Sun
-Version:	1.13
-Release:	2
+Version:	1.15
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	455b7e1c3564563687e36ab53352ba76
+# Source0-md5:	ac4b09817681596ba032cf868c7c6dac
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
