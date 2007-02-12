@@ -1,5 +1,5 @@
 Summary:	Support for Sparcworks
-Summary(pl.UTF-8):   Wsparcie do Sparcworks
+Summary(pl.UTF-8):	Wsparcie do Sparcworks
 Name:		xemacs-Sun-pkg
 %define 	srcname	Sun
 Version:	1.15
